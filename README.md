@@ -11,13 +11,13 @@ Note: ytms is untested on non-Windows operating systems. If you encounter any is
 # Installation
 If you already have [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [mpv](https://github.com/mpv-player/mpv) installed, skip to the next step. If you don't, download mpv from [here](https://mpv.io/installation/) and yt-dlp from [here](https://github.com/yt-dlp/yt-dlp/wiki/Installation).
 
-Now you can install ytms by running the following command in powershell.
+Now you can install ytms by running the following command in powershell (note that powershell comes preinstalled on most modern versions of Windows. If you are not on Windows, or it didn't come preinstalled, you can download it [here](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4).
 ```powershell
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/Atrament1s/ytms/master/script.ps1 | Select-Object -ExpandProperty Content | Add-Content -Path $profile
 ```
 
 # Usage
-To play a song/video, simply type `ytms <video>` where `<video>` is what should be queried by the program.
+To play a song/video, simply type `ytms <query>` where `<query>` is what should be queried by the program.
 
 ### Example 1
 If I wanted to play [Flashed Junk Mind by Milky Chance](https://youtu.be/AaoPyfRYkb0), I can simply type the song name after `ytms`.
