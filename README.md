@@ -9,6 +9,9 @@ Note: ytms is untested on non-Windows operating systems. If you encounter any is
 - [powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)
 
 # Installation
+If you already have [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [mpv](https://github.com/mpv-player/mpv) installed, skip to the next step. If you don't, download mpv from [here](https://mpv.io/installation/) and yt-dlp from [here](https://github.com/yt-dlp/yt-dlp/wiki/Installation).
+
+Finally, you can install ytms by running the following command in powershell.
 ```powershell
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/Atrament1s/ytms/master/script.ps1 | Select-Object -ExpandProperty Content | Add-Content -Path $profile
 ```
