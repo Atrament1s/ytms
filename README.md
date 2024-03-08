@@ -1,5 +1,5 @@
 # ytms
-ytms is command-line script for Powershell that uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) to query YouTube and play the audio of the first result using [mpv](https://github.com/mpv-player/mpv).
+ytms is a command-line script for Powershell that uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) to query YouTube and play the audio of the first result using [mpv](https://github.com/mpv-player/mpv).
 
 Note: ytms is untested on non-Windows operating systems. If you encounter any issues, feel free to [file an issue](https://github.com/Atrament1s/ytms/issues).
 
